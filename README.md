@@ -30,13 +30,13 @@ A web app that generates images from text prompts using an AI API, built with th
 git clone https://github.com/your-username/AI_image_generator.git
 
 # Backend setup
-cd ai-image-generator/backend
+cd AI-image-generator/server
 npm install
 # Add .env with PORT, MONGO_URI, AI_API_KEY
 npm run dev
 
 # Frontend setup
-cd ../frontend
+cd ../client
 npm install
 npm start
 
